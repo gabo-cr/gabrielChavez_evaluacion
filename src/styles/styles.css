@@ -1,0 +1,36 @@
+.header {
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    max-width: 1050px;
+    width: 100%;
+    margin: 2rem auto;
+}
+.image {
+    width: 150px;
+    height: 150px;
+}
+.name {
+    font-weight: bold;
+}
+.text-block {
+    display: flex;
+    justify-content: space-between;
+}
+.text-block p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+.text-block .text {
+    padding-left: 10px;
+    text-align: right;
+}
+.text-block .label {
+    font-weight: bold;
+}
+.paginator {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto !important;
+}
